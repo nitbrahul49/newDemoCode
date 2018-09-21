@@ -2,6 +2,6 @@ FROM tomcat
 
 MAINTAINER RAHUL
 
-EXPOSE 8080
+EXPOSE 9009
 COPY ./devopsDemo/target/devopsDemo.war /usr/local/tomcat/webapps/devopsDemo.war
 
